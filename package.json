@@ -2,14 +2,15 @@
   "name": "plasmic-component",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "plasmic sync --projects $PLASMIC_PROJECT_ID:$PLASMIC_API_TOKEN --yes && next build",
-  "start": "next start",
-  "lint": "next lint"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "plasmic sync --projects $PLASMIC_PROJECT_ID:$PLASMIC_API_TOKEN --yes && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@plasmicapp/loader-nextjs": "^1.0.446",
+    "@plasmicapp/react-web": "^0.2.415",
     "@react-three/drei": "^9.108.0",
     "@react-three/fiber": "^8.18.0",
     "@types/three": "^0.182.0",
