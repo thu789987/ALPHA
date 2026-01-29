@@ -13,7 +13,7 @@
     "@react-three/drei": "^9.108.0",
     "@react-three/fiber": "^8.18.0",
     "@types/three": "^0.182.0",
-    "next": "14.2.35",
+    "next": "^16.1.6",
     "react": "^18",
     "react-dom": "^18",
     "react-markdown": "^10.1.0",
@@ -24,6 +24,7 @@
     "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
+    "@plasmicapp/cli": "^0.1.355",
     "@types/ms": "^2.1.0",
     "@types/node": "^20",
     "@types/prop-types": "^15.7.15",
