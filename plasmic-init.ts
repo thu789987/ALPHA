@@ -80,6 +80,7 @@ PLASMIC.registerComponent(TypingAnimation, {
       keepCssVar: true // Quan trọng để giữ kết nối với Token [3]
     }
   },
+  importPath: './components/TypingAnimation'
 });
 
 
