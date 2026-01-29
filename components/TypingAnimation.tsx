@@ -1,7 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
-export default function TypingAnimation(props: { 
+export function TypingAnimation(props: { 
   texts?: string[]; 
   speed?: number; 
   className?: string;
@@ -14,7 +14,7 @@ export default function TypingAnimation(props: {
   // Cấu trúc sequence: [ "Chữ A", 2000ms nghỉ, "Chữ B", 2000ms nghỉ, ... ]
   const sequence = inputTexts.flatMap(text => [text, 2000]); 
 
-  // Tốc độ gõ: Props truyền vào (1-99), mặc định là 50
+  // Tốc độ gõ: Props truyền vào (1-99), mặc đgit add .ịnh là 50
   const typingSpeed = props.speed || 50;
 
   return (
