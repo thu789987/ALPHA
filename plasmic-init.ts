@@ -37,7 +37,8 @@ PLASMIC.registerComponent(Markdown, {
       type: "string",
       control: "large"
     }
-  }
+  },
+  importPath: "./components/Markdown"
 });
 
 
@@ -55,6 +56,7 @@ PLASMIC.registerComponent(TextRotator, {
       description: "Thời gian đổi chữ (tính bằng ms, vd: 1000 = 1 giây)",
     },
   },
+  importPath: "./components/TextRotator"
 });
 
 
@@ -100,6 +102,7 @@ PLASMIC.registerComponent(MasonryLayout, {
       defaultValue: { default: 4, 1100: 3, 700: 2 }
     }
   },
+  importPath: "./components/MasonryLayout"
 });
 
 PLASMIC.registerComponent(HoverReveal, {
@@ -123,6 +126,7 @@ PLASMIC.registerComponent(HoverReveal, {
       defaultValue: false,
     },
   },
+  importPath: "./components/HoverReveal", // 👈 Đã thêm dòng này
 });
 
 PLASMIC.registerComponent(PatternGrid, {
@@ -135,4 +139,5 @@ PLASMIC.registerComponent(PatternGrid, {
       displayName: 'Gap (px)'
     }
   },
+  importPath: "./components/PatternGrid", // 👈 Đã thêm dòng này
 });
