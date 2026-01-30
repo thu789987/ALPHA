@@ -12,12 +12,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 👇 QUAN TRỌNG: Dùng Node 20 để chạy Next.js 16
-      - name: Use Node.js 20
+      # 👇 QUAN TRỌNG: Dùng Node 20.9.0 để chạy Next.js 16
+      - name: Use Node.js 20.9.0
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20.9.0'
           cache: 'npm'
+
+      - name: Verify Node & npm versions
+        run: |
+          echo "node -> $(node -v)"
+          echo "npm  -> $(npm -v)"
 
       - name: Install dependencies
         run: |
